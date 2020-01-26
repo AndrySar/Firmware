@@ -1,4 +1,4 @@
-# PX4 Drone Autopilot
+# PX4 Drone Autopilotb
 
 [![Releases](https://img.shields.io/github/release/PX4/Firmware.svg)](https://github.com/PX4/Firmware/releases) [![DOI](https://zenodo.org/badge/22634/PX4/Firmware.svg)](https://zenodo.org/badge/latestdoi/22634/PX4/Firmware)
 
@@ -101,3 +101,10 @@ Additional information about supported hardware can be found in [PX4 user Guide 
 ## Project Roadmap
 
 A high level project roadmap is available [here](https://www.dronecode.org/roadmap/).
+
+## Troobleshooting
+
+1. Getting errors when start simulation with jmavsim using java 11.
+    - Needed to install and use zulu jdk 11: https://www.evalue-it.com/columns/grant-carter/190214-quick-start-zulu-jdk-install
+
+    - Fixed Tools/jmavsim_run.sh file, delete line with some like "assistive_technologies"
